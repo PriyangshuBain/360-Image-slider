@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Carousel with Download & Lightbox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="slider" style="--quantity: 15">
+            <div class="item" style="--position: 1">
+                <img src="images/dragon_1.jpg"
+                     alt="Dragon image 1"
+                     data-full-src="images/dragon_1.jpg">
+            </div>
+            <div class="item" style="--position: 2">
+                <img src="images/dragon_2.jpg"
+                     alt="Dragon image 2"
+                     data-full-src="images/dragon_2.jpg"> </div>
+            <div class="item" style="--position: 3">
+                <img src="images/dragon_3.jpg"
+                     alt="Dragon image 3"
+                     data-full-src="images/dragon_3.jpg">
+            </div>
+            <div class="item" style="--position: 4">
+                <img src="images/gyn4zh84umkrqj6pk6s9.jpeg"
+                     alt="Dragon image 4"
+                     data-full-src="images/gyn4zh84umkrqj6pk6s9.jpeg">
+            </div>
+            <div class="item" style="--position: 5">
+                <img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=300"
+                     alt="Dragon image 5"
+                     data-full-src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="item" style="--position: 6">
+                <img src="https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=300"
+                     alt="Dragon image 6"
+                     data-full-src="https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="item" style="--position: 7">
+                <img src="https://images.pexels.com/photos/1693095/pexels-photo-1693095.jpeg?auto=compress&cs=tinysrgb&w=300"
+                     alt="Dragon image 7"
+                     data-full-src="https://images.pexels.com/photos/1693095/pexels-photo-1693095.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="item" style="--position: 8">
+                <img src="https://images.pexels.com/photos/1738986/pexels-photo-1738986.jpeg?auto=compress&cs=tinysrgb&w=300"
+                     alt="Dragon image 8"
+                     data-full-src="https://images.pexels.com/photos/1738986/pexels-photo-1738986.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="item" style="--position: 9">
+                <img src="https://images.pexels.com/photos/1730877/pexels-photo-1730877.jpeg?auto=compress&cs=tinysrgb&w=300"
+                     alt="Dragon image 9"
+                     data-full-src="https://images.pexels.com/photos/1730877/pexels-photo-1730877.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="item" style="--position: 10">
+                <img src="images/dragon_3.jpg"
+                     alt="Dragon image 10"
+                     data-full-src="images/dragon_3.jpg">
+            </div>
+
+            <div class="item" style="--position: 11">
+                <img src="images/dragon_4.jpg"
+                     alt="Dragon image 11"
+                     data-full-src="images/dragon_4.jpg">
+            </div>
+            <div class="item" style="--position: 12">
+                <img src="images/dragon_5.jpg"
+                     alt="Dragon image 12"
+                     data-full-src="images/dragon_5.jpg">
+            </div>
+            <div class="item" style="--position: 13">
+                <img src="images/dragon_6.jpg"
+                     alt="Dragon image 13"
+                     data-full-src="images/dragon_6.jpg">
+            </div>
+            <div class="item" style="--position: 14">
+                <img src="images/dragon_7.jpg"
+                     alt="Dragon image 14"
+                     data-full-src="images/dragon_7.jpg">
+            </div>
+            <div class="item" style="--position: 15">
+                <img src="images/dragon_8.jpg"
+                     alt="Dragon image 15"
+                     data-full-src="images/dragon_8.jpg">
+            </div>
+            <div class="item" style="--position: 16">
+                <img src="images/tbfk3bxfhfhhmr5tjkmb.jpeg"
+                     alt="Dragon image 15"
+                     data-full-src="images/tbfk3bxfhfhhmr5tjkmb.jpeg">
+            </div>
+            </div>
+        <div class="content">
+            <h1 data-content="CSS ONLY">
+                CSS ONLY
+            </h1>
+            <div class="author">
+                <h2>Web Design</h2>
+                <p><b></b></p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox-overlay">
+        <span class="close-button">&times;</span>
+        <img class="lightbox-image" src="" alt="Enlarged image">
+        <button class="download-button" id="downloadBtn">
+            <i class="fas fa-download"></i> Download Image
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
